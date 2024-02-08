@@ -11,21 +11,30 @@
     --blue_valcas: rgba(0,67,108,1);
 
     --borderW_celda: 1px;
+    --pinkHam: rgba(255, 22, 148, 1);
 }
 
 body{
     font-family: 'Montserrat';
+    background-color: #ffffff;
+}
+
+.sidenav-trigger i{
+    padding: 0.5em;
+    font-size: 3em !important;
 }
 
 .brand-logo{
     margin-top: 3em;
     margin-right: 4em;
 }
+.brand-logo img{width: 10em;}
 
 .nav-ham{
     display: flex;
     position: relative;
     z-index: 0;
+    background-color: #000000;
 }
 
 .nav-ham > .elem_1{
@@ -75,6 +84,59 @@ body{
         font-size: 1.5em;
         line-height: 1em;
     }
+
+.section-1{
+    width: 100%; position: relative; z-index: 1;
+}
+
+    .title-section{
+        width: 70%;
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        padding-inline: 2rem;
+        padding-block: 1.4rem;
+        margin-top: 1.3em;
+        border: none;
+        color: #ffffff;
+        background-color: var(--pinkHam);
+        text-align: center;
+    }
+.section-2{position: relative;}
+.procedimientos{
+    width: 70%;
+    margin-inline: 15%;
+    margin-block: 12em;
+}
+
+.procedimientos > div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.procedimientos p{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.procedimientos > div > div{
+    padding: 2em;
+}
+
+.procedimientos > div > div > div > img{
+    height: 15vw;
+}
+    /* .sub-title-section{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        padding-inline: 2rem;
+        padding-block: 0.9rem;
+        border-bottom: 1px solid rgb(0,0,0,0.1);
+    } */
+
 
 @media screen and (max-width: 1122px) {
 
@@ -931,21 +993,6 @@ body{
 
 .c-border-primary span::after{border: 2px solid #3699FF;}
 
-.title-section{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    padding-inline: 2rem;
-    padding-block: 1.2rem;
-    border-bottom: 1px solid rgb(0,0,0,0.1);
-}
-
-.sub-title-section{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    padding-inline: 2rem;
-    padding-block: 0.9rem;
-    border-bottom: 1px solid rgb(0,0,0,0.1);
-}
 
 
 .item-section{
