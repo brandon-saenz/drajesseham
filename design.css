@@ -13,6 +13,10 @@
     --borderW_celda: 1px;
 }
 
+body{
+    font-family: 'Montserrat';
+}
+
 .brand-logo{
     margin-top: 3em;
     margin-right: 4em;
@@ -22,8 +26,6 @@
     display: flex;
     position: relative;
     z-index: 0;
-    /* clip-path: polygon(0 0, 100% 0, 100% 60%, 0 500%); */
-    /* background-color: #000000; */
 }
 
 .nav-ham > .elem_1{
@@ -37,37 +39,61 @@
 }
 
     .elem_2{
+        height: 100%;
+        opacity: 0.6;
+    }
+
+    .elem_3{
         height: 65em;
         position: absolute;
         right: 0;
         bottom: 0;
     }
 
-    .elem_2 img{
+    .elem_3 img{
+        height: 100%;
+        z-index: 0;
+    }
+
+    .section-1-contacto{
+        position: absolute;
+        right: 3em;
+        top: 30%;
         height: 100%;
     }
 
-    .elem_3{
-        height: 100%;
-        opacity: 0.6;
+    .section-1-contacto h4{
+        text-align: right;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 2em;
     }
+
+    .section-1-contacto p{
+        text-align: right;
+        color: #ffffff;
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+
+    
 
 @media screen and (max-width: 1122px) {
 
     .section-1{
-        height: 30vw;
+        height: 55.8vw;
     }
 
-    .elem_3{
-        width: 50vw;
-        height: auto;
-    }
-    
     .elem_2{
         width: 50vw;
         height: auto;
     }
-    .elem_2 img{
+    
+    .elem_3{
+        width: 50vw;
+        height: auto;
+    }
+    .elem_3 img{
         width: 100%;
         height: auto;
     }
