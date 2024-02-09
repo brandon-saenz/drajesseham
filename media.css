@@ -1,4 +1,67 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+    /* Estilos para pantallas pequeñas */
+        .brand-logo{
+            margin-top: 2em;
+            margin-right: 1em;
+        }
+    
+        .brand-logo img{width: 6em;}
+    
+        .section-1-contacto{
+            right: 1em;
+        }
+    
+        .section-1-contacto h4{
+            font-size: 0.95em;
+        }
+    
+        .section-1-contacto p{
+            font-size: 0.7em;
+        }
+    
+        .title-section{
+            font-size: 1em;
+        }
+    
+        .procedimientos{
+            width: 100%;
+            margin-inline: 0;
+            margin-top: 5em;
+            margin-bottom: 2em;
+        }
+    
+        .procedimientos p{
+            font-size: 1em;
+        }
+    
+        .procedimientos > div > div > div > img{
+            height: 30vw;
+        }
+    
+        .section-3{
+            height: 100vw;
+        }
+    
+        .section-3-text{
+            padding: 2em;
+        }
+    
+        .section-3-text h1{line-height: 0; font-size: 2.5em;}
+        .section-3-text h2{line-height: 1em; font-size: 1em;}
+        .section-3-text h3{line-height: 1em; font-size: 1em;}
+        .section-3-text h5{line-height: 0.6em; font-size: 1em;}
+        .section-3-text h5 > span{margin-left: 2em;}
+        .section-3-text h5 > i{font-size: 1.4em;}
+    
+        .btn_agenda_tu_cita{
+            font-size: 1em !important; font-weight: 600;
+            margin-top: 1em;
+        }
+    
+    }
+    
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
 /* Estilos para pantallas pequeñas */
     .brand-logo{
         margin-top: 2em;
@@ -26,7 +89,8 @@
     .procedimientos{
         width: 100%;
         margin-inline: 0;
-        margin-block: 8em;
+        margin-top: 8em;
+        margin-bottom: 2em;
     }
 
     .procedimientos p{
@@ -35,6 +99,25 @@
 
     .procedimientos > div > div > div > img{
         height: 30vw;
+    }
+
+    .section-3{
+        height: 100vw;
+    }
+
+    .section-3-text{
+        padding: 4em;
+    }
+
+    .section-3-text h1{line-height: 0.2em; font-size: 3em;}
+    .section-3-text h2{line-height: 1em; font-size: 1.4em;}
+    .section-3-text h3{line-height: 1em; font-size: 1.4em;}
+    .section-3-text h5{line-height: 0.6em; font-size: 1.3em;}
+    .section-3-text h5 > span{margin-left: 1.6em;}
+
+    .btn_agenda_tu_cita{
+        font-size: 1.3em !important; font-weight: 600;
+        margin-top: 1em;
     }
 
 }
@@ -59,7 +142,8 @@
     .procedimientos{
         width: 90%;
         margin-inline: 5%;
-        margin-block: 8em;
+        margin-top: 8em;
+        margin-bottom: 2em;
     }
 
     .procedimientos p{
@@ -69,15 +153,77 @@
     .procedimientos > div > div > div > img{
         height: 25vw;
     }
+
+    .section-3{
+        height: 85vw;
+    }
+
+    .section-3-text{
+        padding: 4em;
+    }
+
+    .section-3-text h1{line-height: 0.4em; font-size: 4em;}
+    .section-3-text h2{line-height: 1em; font-size: 1.5em;}
+    .section-3-text h3{line-height: 1em; font-size: 1.5em;}
+    .section-3-text h5{line-height: 0.6em; font-size: 1.5em;}
+    .section-3-text h5 > span{margin-left: 1.6em;}
+
+    .btn_agenda_tu_cita{
+        font-size: 1.6em !important; font-weight: 600;
+        margin-top: 1em;
+    }
+    
     
 }
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
 /* Estilos para pantallas grandes */
 
+.section-3-text{
+    padding: 3em;
 }
 
-@media only screen and (min-width: 1201px) {
+.section-3-text h1{line-height: 0; font-size: 2.6em;}
+.section-3-text h2{line-height: 0.5em; font-size: 1.2em;}
+.section-3-text h3{line-height: 0.5em; font-size: 1.2em;}
+.section-3-text h5{line-height: 0.6em; font-size: 1em;}
+.section-3-text h5 > span{margin-left: 2.5em;}
+
+.btn_agenda_tu_cita{
+    font-size: 1em !important; font-weight: 600;
+    margin-top: 1em;
+}
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1600px){
     /* Estilos para pantallas extragrandes */
+
+    .section-3-text{
+        padding: 4em;
+    }
+
+    .section-3-text h1{line-height: 0.2em; font-size: 3em;}
+    .section-3-text h2{line-height: 0.5em; font-size: 1.2em;}
+    .section-3-text h3{line-height: 0.5em; font-size: 1.2em;}
+    .section-3-text h5{line-height: 0.6em; font-size: 1em;}
+    .section-3-text h5 > span{margin-left: 2em;}
+
+    .btn_agenda_tu_cita{
+        font-size: 1.4em !important; font-weight: 600;
+        margin-top: 1em;
+    }
     
-  }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px){
+    .section-3-text h1{line-height: 0.35em; font-size: 3.6em;}
+    .section-3-text h2{line-height: 1.7em; font-size: 1.8em;}
+    .section-3-text h3{line-height: 1.7em; font-size: 1.8em;}
+    .section-3-text h5{line-height: 0.6em; font-size: 1.2em;}
+}
+  
+
+@media only screen and (max-width: 1920px){
+    
+}
   

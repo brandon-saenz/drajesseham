@@ -12,10 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="design.css" rel="stylesheet" type="text/css" />
-    <link href="materialize.css" rel="stylesheet" type="text/css" />
-    <link href="media.css" rel="stylesheet" type="text/css" />
+    <link href="style.css?<?php echo filemtime('style.css'); ?>" rel="stylesheet" type="text/css" />
+    <link href="design.css?<?php echo filemtime('design.css'); ?>" rel="stylesheet" type="text/css" />
+    <link href="materialize.css?<?php echo filemtime('materialize.css'); ?>" rel="stylesheet" type="text/css" />
+    <link href="media.css?<?php echo filemtime('media.css'); ?>" rel="stylesheet" type="text/css" />
     <title>Dra. Jesse Ham</title>
 
 
@@ -70,6 +70,23 @@
                 </div>
             </div>
         </div>
+        <div class="section-3">
+            <img src="assets/elem_4.png" class="section-3-design">
+            <div class="section-3-text">
+                <h5>
+                    <i class="material-icons">business</i>
+                    <span>CONSULTORIO 1606</span>
+                </h5>
+                <h1>NEW CITY</h1>
+                <h1>MEDICAL</h1>
+                <h1>PLAZA</h1>
+                <button class="btn btn_agenda_tu_cita">AGENTA TU<br>CONSULTA AHORA</button>
+                <h2>+52 664 818 6270</h2>
+                <h3>www.drajesseham.com</h3>
+            </div>
+        </div>
+
+        <br><br><br><br><br><br><br><br>
 
         <ul id="slide-out" class="sidenav">
             <li><a href="#">CURRICULUM</a></li>
@@ -78,7 +95,7 @@
             <li><a href="#">CONTACTO</a></li>
         </ul>
     </div>
-    <script src="materialize.js"></script>
-    <script src="app.js"></script>
+    <script src="materialize.js?<?php echo filemtime('materialize.js'); ?>"></script>
+    <script src="app.js?<?php echo filemtime('app.js'); ?>"></script>
 </body>
 </html>

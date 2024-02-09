@@ -17,6 +17,7 @@
 body{
     font-family: 'Montserrat';
     background-color: #ffffff;
+    font-size: 14px;
 }
 
 .sidenav-trigger i{
@@ -106,7 +107,8 @@ body{
 .procedimientos{
     width: 70%;
     margin-inline: 15%;
-    margin-block: 12em;
+    margin-top: 12em;
+    margin-bottom: 5em;
 }
 
 .procedimientos > div{
@@ -129,6 +131,35 @@ body{
 .procedimientos > div > div > div > img{
     height: 15vw;
 }
+
+.section-3{position: relative; 
+    background-image: url('assets/NewCity.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vw;
+}
+
+.section-3-text{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    color: #ffffff;
+    padding: 6em;
+}
+
+.section-3-text h1{font-weight: 600; line-height: 0.4em; font-size: 4em;}
+.section-3-text h2{font-weight: 600; line-height: 1.7em; font-size: 2em;}
+.section-3-text h3{font-weight: 500; line-height: 1.7em; font-size: 2em;}
+.section-3-text h5{font-weight: 600; line-height: 0.6em; font-size: 1.2em; position: relative;}
+.section-3-text h5 > span{margin-left: 1.7em;}
+.section-3-text h5 > i{
+    position: absolute;
+    left: 0;
+    top: -0.3em;}
+
+.section-3-design{
+    height: 100%;
+}
     /* .sub-title-section{
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
@@ -137,6 +168,24 @@ body{
         border-bottom: 1px solid rgb(0,0,0,0.1);
     } */
 
+.btn{
+    line-height: normal !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn_agenda_tu_cita{
+    font-size: 1.4em !important; font-weight: 600;
+    border-radius: 2em !important;
+    background-color: #000000 !important;
+    transition: all 0.2s;
+    height: fit-content !important;
+    padding-inline: 1.5em !important;
+    padding-block: 0.4em !important;
+    margin-top: 2em;
+}
+
+.btn_agenda_tu_cita:hover{
+    background-color: var(--pinkHam) !important;
+}
 
 @media screen and (max-width: 1122px) {
 
